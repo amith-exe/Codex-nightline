@@ -4,7 +4,7 @@ This page documents the commands, subcommands, and flag options supported by the
 
 ---
 
-## ⌨️ Global Usage
+## Global Usage
 ```bash
 flowsync <command> [options]
 ```
@@ -15,7 +15,7 @@ flowsync <command> [options]
 
 ---
 
-## 🛠️ Commands
+##  Commands
 
 ### 1. `activate`
 Prepares a repository or user directory to accept FlowSync hooks and starts the daemon if needed.
@@ -93,7 +93,7 @@ flowsync purge
 
 ---
 
-## ⚙️ Daemon CLI Configuration (`flowsyncd`)
+## Daemon CLI Configuration (`flowsyncd`)
 
 When launching the daemon directly (or when configured via config templates), you can pass the following options:
 

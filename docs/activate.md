@@ -4,7 +4,7 @@ To record developer activities and generate journal summaries, a repository must
 
 ---
 
-## 🛠️ What Does Activation Do?
+## What Does Activation Do?
 
 When you run `flowsync activate` in a project directory:
 1.  **Installs Harness Hooks**: Creates or updates configuration files (e.g., `.claude` or `.codex` settings) in the target directory to load FlowSync's hook shim scripts.
@@ -13,7 +13,7 @@ When you run `flowsync activate` in a project directory:
 
 ---
 
-## 💻 Activation Commands
+## Activation Commands
 
 ### Manual Project-Level Activation (Recommended)
 Prepares the current directory and installs local-scoped configurations:
@@ -30,7 +30,7 @@ flowsync activate --scope user
 
 ---
 
-## 🤖 Automating Activation
+## Automating Activation
 
 To avoid typing `flowsync activate` every time you navigate to a project, choose one of these auto-activation methods:
 
@@ -66,7 +66,7 @@ You can configure Git to trigger activation whenever a repository is checked out
 
 ---
 
-## 📁 Local `.flowsync` Directory Layout
+## Local `.flowsync` Directory Layout
 
 Once active, the `.flowsync` directory in your repository will contain:
 

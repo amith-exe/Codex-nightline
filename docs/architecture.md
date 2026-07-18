@@ -4,7 +4,7 @@ This document describes the high-level architecture of FlowSync, including compo
 
 ---
 
-## 🧩 FlowSync Components
+## FlowSync Components
 
 FlowSync is divided into several focused components:
 
@@ -16,7 +16,7 @@ FlowSync is divided into several focused components:
 
 ---
 
-## 🔄 Data Flow Pipeline
+## Data Flow Pipeline
 
 Below is the chronological path of a coding action recorded in FlowSync:
 
@@ -35,7 +35,7 @@ Below is the chronological path of a coding action recorded in FlowSync:
 
 ---
 
-## 🎨 System Architecture Diagram
+## System Architecture Diagram
 
 ```mermaid
 flowchart LR
@@ -67,7 +67,7 @@ flowchart LR
 
 ---
 
-## 🔒 Security and Filesystem Layout
+## Security and Filesystem Layout
 
 *   **Local Privacy**: No data is uploaded to remote servers. All communication between the shims and the daemon happens over local loopback Unix sockets.
 *   **Access Control**: Files and directories are created with strict permission masks (`0700` directory access, `0600` file access) to ensure only the operating system user running the daemon can read the captured transcripts and journals.

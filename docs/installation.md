@@ -4,7 +4,7 @@ This page covers the prerequisites, build steps, and OS-specific setup notes nee
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before installing FlowSync, ensure your system has the following tools installed:
 
@@ -18,7 +18,7 @@ Before installing FlowSync, ensure your system has the following tools installed
 
 ---
 
-## 🛠️ Build and Installation
+## Build and Installation
 
 To install the latest version of FlowSync directly from the source code, run the following:
 
@@ -37,7 +37,7 @@ This will place the `flowsync` and `flowsyncd` binaries into your `$GOPATH/bin` 
 
 ---
 
-## ⚙️ Running the Daemon
+## Running the Daemon
 
 Once installed, you can start the background process using the CLI:
 
@@ -57,7 +57,7 @@ You should see output indicating that the socket at `~/.flowsync/daemon.sock` is
 
 ---
 
-## 🖥️ Operating System Specific Notes
+## Operating System Specific Notes
 
 ### Windows & WSL (Windows Subsystem for Linux)
 Because FlowSync uses Unix Domain Sockets for high-performance IPC between client hooks and the daemon, running under WSL is highly recommended for Windows developers.
@@ -74,7 +74,7 @@ On Unix-based operating systems, FlowSync works out of the box with standard fil
 
 ---
 
-## 🤖 Configuring the Local LLM (Ollama)
+## Configuring the Local LLM (Ollama)
 
 FlowSync uses a local LLM to summarize development sessions. By default, it looks for an Ollama server running on `localhost:11434` and requests the `qwen2.5-coder:7b` model.
 

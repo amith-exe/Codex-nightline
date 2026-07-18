@@ -4,7 +4,7 @@ This quickstart guide gets you up and running with the FlowSync daemon, shows yo
 
 ---
 
-## 🧭 Step-by-Step Walkthrough
+##  Step-by-Step Walkthrough
 
 ### Step 1: Build and Install Binaries
 Ensure you are in the directory containing the FlowSync source code, then run:
@@ -72,6 +72,6 @@ Check the output folder to verify the daemon recorded your event:
 
 ---
 
-## 🛑 What's Next?
+##  What's Next?
 *   Configure **Ollama** locally to automatically generate summaries for real-world coding turns (see [Installation](installation.md)).
 *   Integrate hook shims into your active IDE extension or terminal environment (see [Project Activation](activate.md)).

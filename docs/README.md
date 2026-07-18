@@ -6,18 +6,18 @@ Use the links below to navigate the documentation:
 
 ---
 
-## 🗺️ Documentation Directory
+##  Documentation Directory
 
-### 🚀 Getting Started
+### Getting Started
 *   **[Quickstart](quickstart.md)**: A step-by-step walkthrough to get the daemon running, activate a project, and record your first coding event.
 *   **[Installation](installation.md)**: System requirements, installation instructions from source, and OS-specific setup (Windows/WSL, Linux, macOS).
 *   **[Project Activation](activate.md)**: Learn how to prepare a repository for journaling using `flowsync activate` and configure automated/silent activation using `direnv` or git templates.
 
-### 📖 User & Reference Guides
+###  User & Reference Guides
 *   **[Usage Guide](usage.md)**: Common workflows, command examples, and scripts to query, search, and inspect project journals and checkpoint logs.
 *   **[CLI Reference](cli-reference.md)**: A complete reference of `flowsync` commands, subcommands, options, and daemon configuration flags.
 
-### ⚙️ Deep Dives & Development
+###  Deep Dives & Development
 *   **[System Architecture](architecture.md)**: Detailed breakdown of the FlowSync architecture, components (CLI, Daemon, Reflector, Hooks), and data flow diagram.
 
 ---
