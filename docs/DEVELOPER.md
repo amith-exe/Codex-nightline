@@ -1,6 +1,6 @@
 # Developer Guide
 
-This guide is for developers and contributors looking to compile, test, debug, and modify FlowSync.
+This guide is for developers looking to compile, test, debug, and modify FlowSync.
 
 ---
 

@@ -163,7 +163,7 @@ For advanced setup and development, see the files in the `docs/` directory:
 *   **[Detailed Installation](docs/installation.md)**: Additional notes for Windows, WSL, Linux, and macOS.
 *   **[Project Activation & Auto-Activation](docs/activate.md)**: Automate activation with `direnv` or git checkout hooks.
 *   **[CLI Reference](docs/cli-reference.md)**: Complete list of subcommands and parameters.
-*   **[Development Guide](docs/development.md)**: Guide on how to compile, test, and contribute.
+*   **[Development Guide](docs/DEVELOPER.md)**: Guide on how to compile, test, and debug.
 
 ---
 

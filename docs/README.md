@@ -20,7 +20,6 @@ Use the links below to navigate the documentation:
 ### ⚙️ Deep Dives & Development
 *   **[System Architecture](architecture.md)**: Detailed breakdown of the FlowSync architecture, components (CLI, Daemon, Reflector, Hooks), and data flow diagram.
 *   **[Developer Guide](DEVELOPER.md)**: Instructions on building from source, running unit tests, directory layout, and debugging local builds.
-*   **[Contributing Guide](CONTRIBUTING.md)**: Guidelines on coding standards, naming conventions, and contributing fixes or features.
 
 ---
 
