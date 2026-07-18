@@ -1,0 +1,72 @@
+{
+  "hooks": {
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": "startup|resume|clear"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "/mnt/c/Users/amith/OneDrive/Documents/Flow/flowsync/adapters/codex/hooks/flowsync-hook.sh",
+            "timeout": 5,
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  }
+}
